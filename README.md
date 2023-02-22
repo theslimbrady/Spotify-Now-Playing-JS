@@ -24,4 +24,8 @@ https://accounts.spotify.com/authorize?client_id=CLIENT_ID&response_type=code&re
 curl -X POST -H "Authorization: Basic BASE64_ENCODED_CLIENTID_CLIENTSECRET" -H "Content-Type: application/x-www-form-urlencoded" -d "grant_type=authorization_code&code=AUTHORIZATION_CODE&redirect_uri=REDIRECT_URI" https://accounts.spotify.com/api/token
 ```
 9. If done properly, this will should give you your refresh token.
-10. In the JavaScript file, replace YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, and YOUR_REFRESH_TOKEN with your own and it should all work!
+10. In the JavaScript file, replace YOUR_CLIENT_ID, YOUR_CLIENT_SECRET, and YOUR_REFRESH_TOKEN with your own.
+11. You can display your widget using HTML by using something basic like:
+```
+<div id="song" style="display: flex; align-items: center;"></div>
+```
