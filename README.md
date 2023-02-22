@@ -1,4 +1,4 @@
-# SpotifyJS
+# SpotifyJS — Display Your Current Song on the Internet
 
 **Contributors:** HankFordham (https://github.com/HankFordham)  
 **Tags:** Spotify, HTML, JavaScript, CSS, Music  
