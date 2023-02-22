@@ -1,4 +1,3 @@
-<div id="song" style="display: flex; align-items: center;"></div>
 <script>
   const client_id = 'YOUR_CLIENT_ID';
   const client_secret = 'YOUR_CLIENT_SECRET';
